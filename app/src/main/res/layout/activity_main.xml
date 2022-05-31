@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/tvDBS"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/dbs"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <Space
+        android:layout_height="30dp"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/tvOCBC"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/ocbc"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <Space
+        android:layout_height="30dp"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/tvUOB"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/uob"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <Space
+        android:layout_height="60dp"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toggleAskFav"
+        android:layout_gravity="center"/>
+
+
+    <RadioGroup
+        android:id="@+id/rgFavBank"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/rbDBS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dbs">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rbOCBC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ocbc">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rbUOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uob">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+</LinearLayout>
